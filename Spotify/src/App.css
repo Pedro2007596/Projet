@@ -1,0 +1,45 @@
+.card {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #131313;
+}
+
+.divAvo{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+.divPai{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  place-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.A{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  display: flex;
+flex-direction: column;
+height: 80vh;
+width: 250px;
+align-items: center;
+justify-content: space-around;
+background-color: darkgrey;
+}
+.header{
+  width: 100%;
+  background-color: #131313;
+  height: 150px;
+}
